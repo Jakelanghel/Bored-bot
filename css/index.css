@@ -1,0 +1,83 @@
+:root {
+    --primary-light: #DCE1DE;
+    --secondary-light: #9CC5A1;
+    --primary-dark: #216869;
+    --secondary-dark: #1F2421;
+    --accent: #49A078;
+}
+
+body {
+    margin: 0;
+    background: var(--primary-dark);
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: var(--secondary-dark);
+}
+
+.title {
+    color: rgb(254, 255, 234, .7)
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: center;
+    min-height: 500px;
+    margin-top: 3.5em;
+}
+
+.col {
+    width: 40%;
+    background: var(--primary-light);
+    border: solid var(--secondary-dark) 5px;
+}
+
+.left-col {
+    border-right: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.left-col-p {
+    margin-top: .5em;
+    font-weight: 700;
+}
+
+.robot-face {
+    font-size: 10rem;
+    font-weight: 400;
+    margin: .25em 0 0 0;
+    color: var(--secondary-dark);
+}
+ 
+.right-col {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.activity {
+    min-height: 150px;
+    padding: 2em .5em;
+}
+
+.activity-btn {
+    font-size: 3rem;
+    background: var(--primary-dark);
+    color: var(--primary-light);
+    padding: .35em .5em;
+    border: solid 2px var(--secondary-dark);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.activity-btn:hover {
+    color: var(--secondary-dark);
+    background: var(--accent);
+}
